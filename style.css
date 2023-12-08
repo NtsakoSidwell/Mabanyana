@@ -813,7 +813,7 @@ ul > li {
 	text-align: center;
 	/*font-family: 'Raleway', sans-serif;*/
 	/*color: #fff;*/
-	z-index: 9;
+	z-index: 0
 }
 
 .banner .container h1 {
@@ -1008,12 +1008,14 @@ ul > li {
 	border-radius: 4px;
 	background: #FFF;
 	box-shadow: 0px 4px 10px 0px rgba(39, 40, 40, 0.473);
+	z-index: 0
 
 }
 
 .learn-courses .box-wrap:hover {
 	transform: translate(-20px, -30px);
 	box-shadow: 0px 4px 10px 0px rgba(243, 11, 11, 0.473);
+	
 	
 }
 
@@ -3884,4 +3886,67 @@ transition: all 0.4s ease 0s;
 
   }
 
+
+
+  .wrapper {
+	padding: 32px;
+  }
+  
+  .cookie-container {
+	width: 100%;
+	margin: auto;
+	position: fixed;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	background: #2f3640;
+	color: #f5f6fa;
+	padding: 0 80px;
+	box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0px;
+  
+	transition: 400ms;
+	z-index: 1; /* set higher z-index value */
+	
+  }
+  .cookie-container p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+  }
+  
+  .cookie-container.active {
+	bottom: 0;
+  }
+  
+  .cookie-container a {
+	color: #f5f6fa;
+  }
+  
+  .cookie-btn {
+	font-size: 13px;
+	color: #fff;
+	background-color: #a12c2f;
+	padding: 12px 30px;
+	display: inline-block;
+	border-radius: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: all .3s;
+	cursor: pointer;
+
+  }
+
+  .cookie-btn:hover {
+	opacity: 0.9;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+
+  }
   
