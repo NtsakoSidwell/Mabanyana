@@ -620,12 +620,14 @@ a:hover, a:active {
 	max-width: 1170px;
 	margin-right: auto;
 	margin-left: auto;
+	
 }
 
 /*======Page Header=============*/
 
 .top-header {
 	background: #C83919;
+	
 }
 
 .top-header2 {
@@ -694,6 +696,7 @@ a:hover, a:active {
 	justify-content: space-between;
 	padding-top: 1.375em;
 	padding-bottom: 1.375em;
+	
 }
 
 

@@ -341,7 +341,7 @@ const Accordion = {
   });
 
   // function([string1, string2],target id,[color1,color2])    
- consoleText(['WELCOME TO MABANYANA.', 'Console Text', 'Console Text2'], 'text',[' #a12c2f','white','white']);
+ consoleText(['WELCOME TO MABANYANA.', 'We offer work integrated learning placement', 'Internship placement ', 'Short courses'], 'text',[' #a12c2f','white','white','white']);
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
