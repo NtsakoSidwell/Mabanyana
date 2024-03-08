@@ -892,10 +892,11 @@ ul > li {
 	background-color: whitesmoke;
 	color: #CB3C33;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-size: 36px;
+	font-size: 32px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	
 }
 
 
@@ -1017,9 +1018,11 @@ ul > li {
 
 .learn-courses .box-wrap:hover {
 	transform: translate(-20px, -30px);
+	transition-duration: 0.5s;
 	box-shadow: 0px 4px 10px 0px rgba(243, 11, 11, 0.473);
 	
-	
+	opacity: 0.9;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 }
 
 .learn-courses .box-wrap2 {
@@ -1247,20 +1250,24 @@ ul > li {
 .whyUs-section .container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	height: 500px;
 	
 }
 
 .featured-points {
 	width: 40.17%;
-	padding-top: 10.25em;
+	padding-top: 4.375em;
+	padding-bottom: 4.375em;
+	
 }
 
 .featured-points ul, li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	
+	
 }
 
 .featured-points li {
@@ -1269,6 +1276,8 @@ ul > li {
 	line-height: 2.222em;
 	text-transform: uppercase;
 	margin-bottom: 2.2223em;
+	
+	
 }
 
 .featured-points li svg {
@@ -1278,7 +1287,7 @@ ul > li {
 }
 
 .whyus-wrap {
-	width: 57%;
+	width: 50%;
 
 	padding-top: 4.375em;
 	padding-bottom: 4.375em;
@@ -1291,6 +1300,12 @@ ul > li {
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 1.33334em;
+}
+
+.whyus-wrap span:hover {
+	background: rgb(228, 222, 222);
+	opacity: 0.9;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 }
 
 .whyus-wrap h1::after {
@@ -2345,16 +2360,30 @@ aside .news-letter hr {
 }
 
 .people-info-wrap form input[type="submit"] {
-	/*font-size: 1.6rem;*/
-	background: #2d77bf;
-	/*color: #fff;*/
+	font-size: 13px;
+	color: #fff;
+	background-color: #a12c2f;
+	padding: 12px 30px;
+	display: inline-block;
+	border-radius: 22px;
+	font-weight: 500;
 	text-transform: uppercase;
+	transition: all .3s;
+
 	text-align: center;
 	width: 100%;
 	padding-top: 1.1em;
 	padding-bottom: 1.1em;
 	margin-top: 1.875em;
 	cursor: pointer;
+}
+.people-info-wrap form input[type="submit"]:hover{
+	opacity: 0.9;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+
 }
 
 /*====Contact Info====*/
@@ -2364,9 +2393,17 @@ aside .news-letter hr {
 }
 
 .contact-page-section .contact-info h2 {
-	/*font-size: 3rem;*/
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	background-color: whitesmoke;
+	color: #CB3C33;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 	text-transform: uppercase;
-	/*color: #000;*/
+	
 	margin-bottom: 2em;
 }
 

@@ -200,7 +200,7 @@ const Accordion = {
       // Expand the first item by default
       first_expanded: false,
       // Allow items to be toggled independently
-      toggle: false
+      toggle: false,
     },
 
     openAccordion: function(toggle, content) {
@@ -341,7 +341,7 @@ const Accordion = {
   });
 
   // function([string1, string2],target id,[color1,color2])    
- consoleText(['WELCOME TO MABANYANA.', 'We offer work integrated learning placement', 'Internship placement ', 'Short courses'], 'text',[' #a12c2f','white','white','white']);
+ consoleText(['WELCOME TO MABANYANA.','We offer Consultation services', 'Work integrated learning placements', 'Internship placements ', 'Short courses'], 'text',[' #a12c2f','white','white','white','white']);
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
