@@ -173,11 +173,21 @@ $('.three').owlCarousel({
 });
 
 
-// For Rating
+// For Rating 5
  $(function () {
  
   $(".rateYo").rateYo({
     rating: 4,
+    starWidth: "20px"
+  });
+ 
+});
+
+// For Rating 5
+$(function () {
+ 
+  $(".rateYoyo").rateYo({
+    rating: 5,
     starWidth: "20px"
   });
  
